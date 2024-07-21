@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #D2D2D2;
+            background-image:
+            repeating-linear-gradient(
+                to right, transparent 0 100px,
+                #25283b22 100px 101px
+            ),
+            repeating-linear-gradient(
+                to bottom, transparent 0 100px,
+                #25283b22 100px 101px
+            );
+        }
+        
+        body::before {
+            position: fixed; /* Use fixed to keep it in place */
+            width: 100vw;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            content: '';
+            background-image: url('https://images.unsplash.com/photo-1492227982298-644b223e666d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover; /* Cover to ensure it takes the whole space */
+            background-repeat: no-repeat;
+            background-position: center;
+            z-index: -1; /* Ensures the background is behind other content */
+            pointer-events: none;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="banner">
+        <div class="slider" style="--quantity: 10">
+            <div class="item" style="--position: 1"><img src="https://img.freepik.com/fotos-premium/hay-dragon-que-esta-volando-cielo-luna-llena-generativa-ai_1034068-42793.jpg?w=360" alt=""></div>
+            <div class="item" style="--position: 2"><img src="https://img.freepik.com/fotos-premium/lobo-ojos-dorados-fondo-negro-estrellas-doradas_799924-24.jpg?w=740" alt=""></div>
+            <div class="item" style="--position: 3"><img src="https://img.freepik.com/fotos-premium/pintura-hombre-plumas-cabeza-generativa-ai_902639-150.jpg?w=360" alt=""></div>
+            <div class="item" style="--position: 4"><img src="https://img.freepik.com/fotos-premium/primer-plano-figurilla-dragon-generativo-ai_902639-2808.jpg?w=360" alt=""></div>
+            <div class="item" style="--position: 5"><img src="https://img.freepik.com/fotos-premium/poster-dragon-japones-llamado-dragon_902639-40214.jpg?w=360" alt=""></div>
+            <div class="item" style="--position: 6"><img src="https://img.freepik.com/fotos-premium/primer-plano-dragon-ola-luna-llena-fondo-generativo-ai_1034068-21975.jpg?w=360" alt=""></div>
+            <div class="item" style="--position: 7"><img src="https://img.freepik.com/fotos-premium/cerca-pajaro-sobre-fondo-negro-generativo-ai_902639-585.jpg?w=360" alt=""></div>
+            <div class="item" style="--position: 8"><img src="https://img.freepik.com/fotos-premium/pintura-gato-corona-cabeza-ai-generativo_902639-171.jpg?w=360" alt=""></div>
+            <div class="item" style="--position: 9"><img src="https://img.freepik.com/fotos-premium/imagen-dragon-ojos-brillantes-ia-generativa_97167-2729.jpg?w=360" alt=""></div>
+            <div class="item" style="--position: 10"><img src="https://img.freepik.com/fotos-premium/cara-guepardo-llamas-ojos-azules-ia-generativa_97167-1790.jpg?w=740" alt=""></div>
+        </div>
+        <div class="content">
+            
+            <div class="author">
+                <h2>kun</h2>
+                <p><b>Web Design</b></p>
+                <p>
+                    
+                </p>
+            </div>s
+            <div class="model"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
